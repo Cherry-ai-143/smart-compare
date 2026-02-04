@@ -82,10 +82,10 @@ export default function CartPage() {
 
   const openPlatformCheckout = (platformId: string) => {
     const urls = {
-      blinkit: "http://localhost:3005/checkout",
-      zepto: "http://localhost:3004/checkout",
-      bigbasket: "http://localhost:3003/checkout",
-      jiomart: "http://localhost:3002/checkout",
+      blinkit: "https://smart-compare-cy2n.vercel.app/checkout",
+      zepto: "https://smart-compare-13mt.vercel.app/checkout",
+      bigbasket: "https://smart-compare-7sls.vercel.app/checkout",
+      jiomart: "https://smart-compare-9s1l.vercel.app/checkout",
     }
 
     // Encode cart items as query parameter
